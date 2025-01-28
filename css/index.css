@@ -28,6 +28,10 @@ div {
     justify-content: center;
 }
 
+.text-display span {
+    padding-left: 5px;
+}
+
 .input-area {
     display: flex;
     justify-content: center;
