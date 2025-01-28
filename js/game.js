@@ -1,3 +1,5 @@
+import { coucou } from './ranking.js';
+
 // script.js
 const texts = [
     "The quick brown fox jumps over the lazy dog.",
@@ -5,6 +7,9 @@ const texts = [
     "All that glitters is not gold.",
     "A journey of a thousand miles begins with a single step."
 ];
+
+
+
 
 class TypeRacer {
     constructor() {
@@ -96,6 +101,7 @@ class TypeRacer {
         this.finalAccuracyDisplay.textContent = `${finalStats.accuracy}%`;
         this.finalTimeDisplay.textContent = Math.round(finalStats.timeElapsed);
         this.resultsDiv.style.display = 'block';
+        coucou();
     }
 
     handleInput() {
