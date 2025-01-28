@@ -1,8 +1,41 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="css/index.css" />
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeRacer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-
-    TYPERACER
-
+    <div class="container">
+        <h1>TypeRacer</h1>
+        <div class="text-display" id="text-display"></div>
+        <div class="input-area">
+            <input type="text" id="typing-input" placeholder="Click Start to begin typing..." disabled>
+        </div>
+        <div class="stats">
+            <div class="stat-box">
+                <div>WPM</div>
+                <div id="wpm">0</div>
+            </div>
+            <div class="stat-box">
+                <div>Accuracy</div>
+                <div id="accuracy">100%</div>
+            </div>
+            <div class="stat-box">
+                <div>Time</div>
+                <div id="time">0s</div>
+            </div>
+        </div>
+        <button id="start-btn">Start</button>
+        <div class="results" id="results">
+            <h3>Results:</h3>
+            <p>Words per minute: <span id="final-wpm">0</span></p>
+            <p>Accuracy: <span id="final-accuracy">100%</span></p>
+            <p>Time taken: <span id="final-time">0</span> seconds</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
