@@ -3,24 +3,72 @@ body {
     font-family: Garamond, serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-image: url("../ressources/images/maxresdefault.jpg");
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: center;
 }
 
-.TypeBarre {
-    height: 30%;
+div {
+    color:white;
+    text-shadow: black 2px 2px;
+}
+
+.container {
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    background-color: rgba(255 , 255, 255, 0.3);
+}
+
+.text-display {
+    display: flex;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
     border-radius: 50px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.Titre {
-    height: 70%;
+h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 70%;
     color: red;
     font-size: 5em;
+}
+
+.stats {
+    height: 100%;
+    align-items: end;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.stat-box {
+
+}
+
+.results {
+    align-items: end;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#start-btn {
+    width: 30%;
 }
