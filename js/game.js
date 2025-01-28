@@ -100,7 +100,7 @@ class TypeRacer {
         this.finalWpmDisplay.textContent = finalStats.wpm;
         this.finalAccuracyDisplay.textContent = `${finalStats.accuracy}%`;
         this.finalTimeDisplay.textContent = Math.round(finalStats.timeElapsed);
-        this.resultsDiv.style.display = 'block';
+        this.resultsDiv.style.display = 'flex';
         coucou();
     }
 
