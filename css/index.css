@@ -25,6 +25,7 @@ div {
 
 .text-display {
     display: flex;
+    justify-content: center;
 }
 
 .input-area {
